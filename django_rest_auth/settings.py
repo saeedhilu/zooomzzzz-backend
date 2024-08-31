@@ -49,7 +49,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # settings.py
 MEDIA_URL = 'images/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'images') 
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 #  Using psql Data base 
 DATABASES = {
     'default': {
